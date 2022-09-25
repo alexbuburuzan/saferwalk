@@ -1,0 +1,128 @@
+
+
+
+
+  /* Set height of the grid */
+  .row.content {height: 450px}
+
+  /*100% height */
+.sidenav {
+    padding-top:20px;
+    height:100%;
+    width: 100%;
+  }
+
+
+/*Remove the navbar's default margin-bottom. Sets Background color */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: black; 
+
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 10px;
+    border-image: linear-gradient(45deg, #66Fcf1 ,#3366FF,  #9900FF, #9900CC ) 1;
+    
+  }
+
+  /*Sets the size, font and spacing within the nav bar*/
+nav ul li a {
+    font-family: "Lato";
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+   /*Sets the color of the active buttons in nav bar */
+.active{
+  color: #66FCF1;
+} 
+
+/*Sets the background */
+.jumbotron{
+    background-image:linear-gradient(45deg, rgba(102, 252, 241, 0.2) ,rgba(51, 102, 255, 0.2),  rgba(153, 0, 255, 0.2), rgba(153, 0, 204, 0.2) ),
+    url("posteredited.png");
+    background-size: cover;
+}
+
+/*Sets the font color and size for saferwalk*/
+#header h1{
+  color: #66FCF1;
+}
+#header p{
+  color: #C5C6C7;
+}
+
+/*Background color for other sections*/
+.one{
+ background-color: white;} 
+
+ .one p{
+  color: black;
+ }
+
+#startbtn{
+  text-align: center;
+  color:#C5C6C7;
+  border-color:#66FCF1;
+  border-width: 2px;
+  padding: 7px 28px;
+  font-size: 22px; 
+  line-height: normal; 
+}
+#startbtn:hover{
+  background:black;
+  color: #66FCF1;
+}
+
+#start{
+  height:300px;
+}
+
+  p {
+  font-size:20px;
+  font: "Lato";
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;}
+  
+
+  /* Set black background color, white text */
+  footer {
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  } 
+
+  footer a {
+    font-size: 4px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+
+  }
+  /*font size for footer*/
+  .icon-size:hover {
+    background-image: black;
+ }
+
+  /*refrence*/
+  footer .href{
+    color:ghostwhite;
+  }
+  .icon-size{
+    height: px;
+    width: 96px;
+  }
+  
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+  .row.content {height:auto;} 
+  }
+
+  
